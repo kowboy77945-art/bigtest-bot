@@ -11,7 +11,7 @@ dp = Dispatcher()
 
 @dp.message(CommandStart())
 async def start_cmd(message: types.Message):
-    await message.answer("Мой создатель цитру")
+    await message.answer("Мой создатель цитрус")
 
 async def main():
     print("Бот запущен и готов к работе!")
